@@ -29,8 +29,6 @@ if(form){
       e.stopPropagation();
       form.classList.add('was-validated');
     } else {
-      // Aqui você pode integrar com EmailJS ou Formspree
-      // Simulação de envio
       const toast = new bootstrap.Toast(document.getElementById('successToast'));
       toast.show();
       form.reset();
